@@ -28,21 +28,16 @@ This structure ensures that the program can be executed from any directory, and 
 Save the script as 'OrganizeFilesToFoldersByDate.py' in the desired directory you want to organize.
 Open your terminal or command prompt.
 <br>
+
 **Windows:**
 1. Navigate to the Directory by click right mouse button and holding 'Shift', in context menu find 'Open in Terminal' and your shell will open this Directory.
-Or You can open the Directory using Command Prompt.
+Or you can open the Directory using Command Prompt.
 Use `cd` to navigate to the directory containing 'OrganizeFilesToFoldersByDate.py':
-<br>
-
-Code:
 ```
 cd path\to\your\directory
 ```
 2. Run the Script:
 Execute the script by typing without brackets or quotes in the file name:
-<br>
-
-Code:
 ```
 python OrganizeFilesToFoldersByDate.py
 ```
@@ -52,23 +47,14 @@ python OrganizeFilesToFoldersByDate.py
 It is a good reason to make the Script Executable.
 1. Open Terminal.
 Navigate to the directory containing 'OrganizeFilesToFoldersByDate.py':
-<br>
-
-sh
 ```
 cd /path/to/your/directory
 ```
 2. Make the script executable:
-<br>
-
-sh
 ```
 chmod +x OrganizeFilesToFoldersByDate.py
 ```
 3. Run the Script:
-<br>
-
-sh
 ```
 ./OrganizeFilesToFoldersByDate.py
 ```
@@ -77,16 +63,10 @@ sh
 **macOS:**
 1. Make the Script Executable:
 Open Terminal and navigate to the directory containing 'OrganizeFilesToFoldersByDate.py':
-<br>
-
-sh
 ```
 cd /path/to/your/directory
 ```
 2. Make the script executable:
-<br>
-
-sh
 ```
 chmod +x OrganizeFilesToFoldersByDate.py
 ```
@@ -96,4 +76,8 @@ Execute the script by typing:
 ./OrganizeFilesToFoldersByDate.py
 ```
 <br>
+
 By following these steps, the script will organize all files in the current directory that contain dates in their filenames, moving them into folders named after the respective dates.
+Now the main folder will load faster.
+> [!IMPORTANT]
+> If you worked with any files from this folder in programs, then keep in mind that the address of the files has changed, so you will need to add these files to the program again.
