@@ -1,6 +1,12 @@
 # FilesToFoldersOrganizator
 This Python program organizes files in a directory by date found in their filenames. It searches for dates in the format `year-month-day`,  creates corresponding folders, and moves files into these folders.
 
+<div>
+  <img src="assets/Screenshot-2024-07-03-182917.jpg" alt="Screenshot of a folder full of images, containing 1942 items." width = "500">   
+  <img src="assets/Screenshot-2024-07-03-183016.jpg" alt="Screenshot of a folder filled by newly created subfolders with images, now containing 179 items." width = "500">
+</div>
+
+
 The program is designed to organize files in a given directory by moving them into subfolders named after the date found in their filenames. This is achieved through the use of the `organize_files_by_date` function, which leverages regular expressions for date detection, and standard file operations to move files into their respective folders.
 
 ## Functions:
